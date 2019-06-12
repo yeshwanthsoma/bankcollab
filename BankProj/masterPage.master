@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="masterPage.master.cs" Inherits="Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+    
+    <style type="text/css">
+        .auto-style1 {
+            width: 800px;
+            height: 80px;
+        }
+    </style>
+    
+    
+</head>
+<body style=" width:1500px; height:1500px ">
+    <div>
+    <form id="form1" runat="server">
+    
+<table style="font-family: Arial">
+    <tr>
+        <td colspan="2" style="text-align: center; 
+            background-color: #BDBDBD;" class="auto-style1">
+            <h1>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                BANKING APPLICATION&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Home" Width="122px" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button2"  runat="server" OnClick="Button2_Click"  Width="120px" />
+            </h1>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="HeaderName" runat="server" ></asp:Label>
+            <asp:Label ID="HeaderAccountNo" runat="server" ></asp:Label>
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+    </tr>
+    <tr>
+        <td style="height: 500px; background-color: #D8D8D8; width: 150px">
+            <h3>
+                &nbsp;</h3>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="MasterButton1" runat="server" OnClick="MasterButton1_Click" />
+             &nbsp;
+            <br />
+            <br />
+             &nbsp;&nbsp;&nbsp;&nbsp;
+             <asp:Button ID="MasterButton2" runat="server" OnClick="MasterButton2_Click" />
+             &nbsp;
+             <br />
+            <br />
+             &nbsp;&nbsp;&nbsp;&nbsp;
+             <asp:Button ID="MasterButton3" runat="server" OnClick="MasterButton3_Click" />
+             &nbsp;
+            <br />
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="MasterButton4" runat="server" OnClick="MasterButton4_Click" />
+             &nbsp;
+        </td>
+        <td style="height: 500px; background-color: #E6E6E6; width: 650px">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                <h1>&nbsp;</h1>
+            </asp:ContentPlaceHolder>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" style="background-color: #BDBDBD; text-align: center">
+            <b>Copyright....</b>
+        </td>
+    </tr>
+</table>
+        
+</form>
+   </div>
+</body>
+</html>

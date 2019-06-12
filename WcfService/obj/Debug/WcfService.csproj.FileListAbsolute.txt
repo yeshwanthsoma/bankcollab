@@ -1,0 +1,5 @@
+C:\Users\soma yeshwanth\Documents\Visual Studio 2015\Projects\BankProj\WcfService\bin\WcfService.dll.config
+C:\Users\soma yeshwanth\Documents\Visual Studio 2015\Projects\BankProj\WcfService\bin\WcfService.dll
+C:\Users\soma yeshwanth\Documents\Visual Studio 2015\Projects\BankProj\WcfService\bin\WcfService.pdb
+C:\Users\soma yeshwanth\Documents\Visual Studio 2015\Projects\BankProj\WcfService\obj\Debug\WcfService.dll
+C:\Users\soma yeshwanth\Documents\Visual Studio 2015\Projects\BankProj\WcfService\obj\Debug\WcfService.pdb
